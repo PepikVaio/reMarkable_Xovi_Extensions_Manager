@@ -1,0 +1,21 @@
+{
+  "Config 1": {
+    "name": "reMarkable 2",
+    "ipaddress": "10.0.1.24",
+    "username": "root",
+    "password": "qLA21wsX9x"
+  },
+  "Config 2": {
+    "name": "rm Paper Pro",
+    "ipaddress": "10.0.1.58",
+    "username": "root",
+    "password": "hgzwYPX57g"
+  },
+  "Config 3": {
+    "name": "Config 3",
+    "ipaddress": "",
+    "username": "root",
+    "password": ""
+  },
+  "last_selected": "Config 1"
+}
