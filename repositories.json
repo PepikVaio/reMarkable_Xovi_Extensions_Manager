@@ -1,7 +1,11 @@
-[
-    {"repo": "asivery/rm-hacks-qmd", "method": "version"},
-    {"repo": "PepikVaio/reMarkable_Xovi_Extensions", "method": "version"},
-    {"repo": "FouzR/xovi-extensions", "method": "name"},
-    {"repo": "ingatellent/xovi-qmd-extensions", "method": "name"},
-    {"repo": "StarNumber12046/xovi-qmd-extensions", "method": "name"}
-]
+{
+  "version": [
+    "asivery/rm-hacks-qmd",
+    "PepikVaio/reMarkable_Xovi_Extensions"
+  ],
+  "name": [
+    "FouzR/xovi-extensions",
+    "ingatellent/xovi-qmd-extensions",
+    "StarNumber12046/xovi-qmd-extensions"
+  ]
+}
