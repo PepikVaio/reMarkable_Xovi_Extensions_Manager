@@ -31,6 +31,8 @@ Download the latest release:
 
 ### Using
 * Just double-click the icon
+* Version of reMarkable: Menu / Settings / General / Software
+* Login to your reMarkable: Menu / Settings / Help / Copyrights and licenses 
 
 
 ## Help
