@@ -15,13 +15,18 @@ The Extension Manager is used to easily install extensions on your reMarkable de
 
 
 ## Getting Started
-* Xovi extensions manager.app k použití s ​​macOS
+* Xovi extensions manager.app for use with macOS
 * Xovi extensions manager for use on all systems via terminal.
 
 
 ### Requirements
 * reMarkable 1/2, reMarkable Paper Pro
 * [Xovi](https://github.com/asivery/rm-xovi-extensions/tree/master)
+
+
+### Instalace
+Download the latest package:
+* [Xovi Extension Manager](https://github.com/PepikVaio?tab=packages&repo_name=reMarkable_Xovi_Extensions_Manager)
 
 
 ### Using
@@ -37,4 +42,7 @@ Inspiration, code snippets, etc...
 * ...
 
 
-![image_01](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/xovi_Settings_Main/.pictures/xovi_Settings_Main_01.png?raw=true)
+![image_01](https://github.com/PepikVaio/reMarkable_Xovi_Extensions_Manager/blob/main/.pictures/Xovi_Extension_Manager_01.png?raw=true)
+![image_02](https://github.com/PepikVaio/reMarkable_Xovi_Extensions_Manager/blob/main/.pictures/Xovi_Extension_Manager_02.png?raw=true)
+![image_03](https://github.com/PepikVaio/reMarkable_Xovi_Extensions_Manager/blob/main/.pictures/Xovi_Extension_Manager_03.png?raw=true)
+![image_04](https://github.com/PepikVaio/reMarkable_Xovi_Extensions_Manager/blob/main/.pictures/Xovi_Extension_Manager_04.png?raw=true)
