@@ -1,18 +1,19 @@
-# Readme
+# Readme!
 
 ## Create app from python:
-pyinstaller --onefile --windowed --name "name_app" file_python.py
+```pyinstaller --onefile --windowed --name "name_app" file_python.py```
 
-## Create app from python with terminal:
-pyinstaller --onefile --name "name_app" file_python.py
-
-
-## Run with spec file:
-pyinstaller name_app.spec
+#### Create app from python with terminal:
+```pyinstaller --onefile --name "name_app" file_python.py```
 
 
+#### Run with spec file:
+```pyinstaller name_app.spec```
 
-## Image icns from png: (text to terminal)
+
+
+## Create icns from png: (text to terminal)
+```
 mkdir my_icon.iconset
 sips -z 16 16     myimage.png --out my_icon.iconset/icon_16x16.png
 sips -z 32 32     myimage.png --out my_icon.iconset/icon_16x16@2x.png
@@ -25,3 +26,4 @@ sips -z 512 512   myimage.png --out my_icon.iconset/icon_256x256@2x.png
 sips -z 512 512   myimage.png --out my_icon.iconset/icon_512x512.png
 sips -z 1024 1024 myimage.png --out my_icon.iconset/icon_512x512@2x.png
 iconutil -c icns my_icon.iconset
+```
