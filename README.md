@@ -26,7 +26,7 @@ The Extensions Manager is used to easily install extensions on your reMarkable d
 
 ### Install
 Download the latest release:
-* [Xovi Extensions Manager](https://github.com/PepikVaio?tab=packages&repo_name=reMarkable_Xovi_Extensions_Manager)
+* [Xovi Extensions Manager](https://github.com/PepikVaio/reMarkable_Xovi_Extensions_Manager/releases)
 
 
 ### Using
