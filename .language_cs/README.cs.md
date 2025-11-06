@@ -31,6 +31,8 @@ Stáhněte si nejnovější verzi:
 
 ### Using
 * Stačí 2 kliknout na ikonu aplikace.
+* Verze vašeho reMarkable: Menu / Settings / General / Software
+* Přihlaste se přes ssh do reMarkable: Menu / Settings / Help / Copyrights and licenses 
 
 
 ## Pomoc
