@@ -1,5 +1,5 @@
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main?tab=License-1-ov-file)
-[![cs](https://img.shields.io/badge/lang-cs-springgreen.svg)](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/.language_cs/LICENSE.cs.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/PepikVaio/reMarkable_Xovi_Extensions_Manager/tree/main?tab=License-1-ov-file)
+[![cs](https://img.shields.io/badge/lang-cs-springgreen.svg)](https://github.com/PepikVaio/reMarkable_Xovi_Extensions_Manager/blob/main/.language_cs/LICENSE.cs.md)
 
 
 ## Creative Commons Uveďte původ-Neužívejte dílo komerčně-Zachovejte licenci 4.0
