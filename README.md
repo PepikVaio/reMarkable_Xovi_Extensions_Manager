@@ -5,12 +5,12 @@
 [![supported: rmPP](https://img.shields.io/badge/rmPP-supported-blue)](https://remarkable.com/store/remarkable-paper/pro)
 [![supported: FW](https://img.shields.io/badge/fw_3.xx-supported-green)]()
 
-# Xovi extension Manager!
+# Xovi Extensions Manager!
 Enhance your reMarkable device with extensions.
 
 
 ## Description
-The Extension Manager is used to easily install extensions on your reMarkable device.
+The Extensions Manager is used to easily install extensions on your reMarkable device.
 * You don't need to worry about installation files and you don't need to be a computer expert, all from your convenience.
 
 
@@ -26,7 +26,7 @@ The Extension Manager is used to easily install extensions on your reMarkable de
 
 ### Instalace
 Download the latest package:
-* [Xovi Extension Manager](https://github.com/PepikVaio?tab=packages&repo_name=reMarkable_Xovi_Extensions_Manager)
+* [Xovi Extensions Manager](https://github.com/PepikVaio?tab=packages&repo_name=reMarkable_Xovi_Extensions_Manager)
 
 
 ### Using
@@ -42,7 +42,7 @@ Inspiration, code snippets, etc...
 * ...
 
 
-![image_01](https://github.com/PepikVaio/reMarkable_Xovi_Extensions_Manager/blob/main/.pictures/Xovi_Extension_Manager_01.png?raw=true)
-![image_02](https://github.com/PepikVaio/reMarkable_Xovi_Extensions_Manager/blob/main/.pictures/Xovi_Extension_Manager_02.png?raw=true)
-![image_03](https://github.com/PepikVaio/reMarkable_Xovi_Extensions_Manager/blob/main/.pictures/Xovi_Extension_Manager_03.png?raw=true)
-![image_04](https://github.com/PepikVaio/reMarkable_Xovi_Extensions_Manager/blob/main/.pictures/Xovi_Extension_Manager_04.png?raw=true)
+![image_01](https://github.com/PepikVaio/reMarkable_Xovi_Extensions_Manager/blob/main/.pictures/Xovi_Extensions_Manager_01.png?raw=true)
+![image_02](https://github.com/PepikVaio/reMarkable_Xovi_Extensions_Manager/blob/main/.pictures/Xovi_Extensions_Manager_02.png?raw=true)
+![image_03](https://github.com/PepikVaio/reMarkable_Xovi_Extensions_Manager/blob/main/.pictures/Xovi_Extensions_Manager_03.png?raw=true)
+![image_04](https://github.com/PepikVaio/reMarkable_Xovi_Extensions_Manager/blob/main/.pictures/Xovi_Extensions_Manager_04.png?raw=true)
