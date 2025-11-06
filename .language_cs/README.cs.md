@@ -25,7 +25,7 @@ Extensions Manager slouží ke snadné instalaci rozšíření na vaše zaříz
 
 
 ### Instalace
-Stáhněte si nejnovější balíček:
+Stáhněte si nejnovější verzi:
 * [Xovi Extensions Manager](https://github.com/PepikVaio?tab=packages&repo_name=reMarkable_Xovi_Extensions_Manager)
 
 
