@@ -5,12 +5,12 @@
 [![supported: rmPP](https://img.shields.io/badge/rmPP-supported-blue)](https://remarkable.com/store/remarkable-paper/pro)
 [![supported: FW](https://img.shields.io/badge/fw_3.xx-supported-green)]()
 
-# Xovi extension Manager!
+# Xovi Extensions Manager!
 Vylepšete své zařízení reMarkable pomocí rozšíření.
 
 
 ## Popis
-Správce rozšíření slouží ke snadné instalaci rozšíření na vaše zařízení reMarkable.
+Extensions Manager slouží ke snadné instalaci rozšíření na vaše zařízení reMarkable.
 * Nemusíte se starat o instalační soubory a nemusíte být počítačový expert, to vše z vašeho pohodlí.
 
 
@@ -26,7 +26,7 @@ Správce rozšíření slouží ke snadné instalaci rozšíření na vaše za�
 
 ### Instalace
 Stáhněte si nejnovější balíček:
-* [Xovi Extension Manager](https://github.com/PepikVaio?tab=packages&repo_name=reMarkable_Xovi_Extensions_Manager)
+* [Xovi Extensions Manager](https://github.com/PepikVaio?tab=packages&repo_name=reMarkable_Xovi_Extensions_Manager)
 
 
 ### Using
@@ -42,7 +42,7 @@ Inspirace, úryvky kódu atd...
 * ...
 
 
-![image_01](https://github.com/PepikVaio/reMarkable_Xovi_Extensions_Manager/blob/main/.pictures/Xovi_Extension_Manager_01.png?raw=true)
-![image_02](https://github.com/PepikVaio/reMarkable_Xovi_Extensions_Manager/blob/main/.pictures/Xovi_Extension_Manager_02.png?raw=true)
-![image_03](https://github.com/PepikVaio/reMarkable_Xovi_Extensions_Manager/blob/main/.pictures/Xovi_Extension_Manager_03.png?raw=true)
-![image_04](https://github.com/PepikVaio/reMarkable_Xovi_Extensions_Manager/blob/main/.pictures/Xovi_Extension_Manager_04.png?raw=true)
+![image_01](https://github.com/PepikVaio/reMarkable_Xovi_Extensions_Manager/blob/main/.pictures/Xovi_Extensions_Manager_01.png?raw=true)
+![image_02](https://github.com/PepikVaio/reMarkable_Xovi_Extensions_Manager/blob/main/.pictures/Xovi_Extensions_Manager_02.png?raw=true)
+![image_03](https://github.com/PepikVaio/reMarkable_Xovi_Extensions_Manager/blob/main/.pictures/Xovi_Extensions_Manager_03.png?raw=true)
+![image_04](https://github.com/PepikVaio/reMarkable_Xovi_Extensions_Manager/blob/main/.pictures/Xovi_Extensions_Manager_04.png?raw=true)
