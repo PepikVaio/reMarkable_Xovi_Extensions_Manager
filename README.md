@@ -37,7 +37,7 @@ Download the latest release:
 
 ## Help
 Create issues if you find a problem.
-
+* [Github Request Limit](https://github.com/PepikVaio/reMarkable_Xovi_Extensions_Manager/issues/2)
 
 ## Acknowledgements
 Inspiration, code snippets, etc...
