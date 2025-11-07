@@ -6,7 +6,7 @@
 * Redirect `python3` to the new version  
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-/opt/homebrew/bin/python3 --version
+brew install python@3.13
 brew link --overwrite python@3.13
 ```
 
