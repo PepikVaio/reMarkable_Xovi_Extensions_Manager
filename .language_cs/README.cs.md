@@ -37,6 +37,8 @@ Stáhněte si nejnovější verzi:
 
 ## Pomoc
 Vytvořte problémy, pokud najdete problém.
+* [Github Request Limit](https://github.com/PepikVaio/reMarkable_Xovi_Extensions_Manager/issues/2)
+
 
 
 ## Poděkování
