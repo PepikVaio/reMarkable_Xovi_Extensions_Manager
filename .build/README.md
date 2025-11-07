@@ -16,16 +16,22 @@ source ~/.zshrc
 python3 --version
 ```
 
-
-## Create a standalone app from Python:
-* Create app from python with terminal:
+* Run the script
 ```bash
-pyinstaller --onefile --windowed --name "name_app" file_python.py
+chomd +x xovi_extensions_manager.py
+python3 ./xovi_extensions_manager.py
 ```
 
-* Using a spec file:
+
+## Create a standalone app from Python:
+* Build the app from the terminal:
 ```bash
-pyinstaller name_app.spec
+pyinstaller --onefile --windowed --name "Xovi Extensions Manager" xovi_extensions_manager.py
+```
+
+* Build using a spec file:
+```bash
+pyinstaller xovi_extensions_manager.spec
 ```
 
 
@@ -48,7 +54,7 @@ sips -z 512 512   myimage.png --out my_icon.iconset/icon_512x512.png
 sips -z 1024 1024 myimage.png --out my_icon.iconset/icon_512x512@2x.png
 ```
 
-* Convert to ```.icns```:
+* Convert to `.icns`:
 ```bash
 iconutil -c icns my_icon.iconset
 ```
