@@ -32,27 +32,16 @@ os.makedirs(path_Config, exist_ok=True)
 # -----------------------------------------------------------------------------------------------------
 
 
-# Basic resource path, in memory only
-# Destroyed after application restart (works also in packaged .app/.exe files)
-path_Resource = getattr(sys, "_MEIPASS", os.path.abspath("."))
-# ----------------------------------------------------------------------------
+# Installing dependencies from requirements.txt
+dependencies = ["paramiko", "requests"]
 
-
-# Installing dependencies automatically
-modules_Required = ["paramiko", "requests"]
-
-for module in modules_Required:
+for package in dependencies:
     try:
-        importlib.import_module(module)
+        importlib.import_module(package)
     except ImportError:
-        print(f"Installing {module}…")
-        try:
-            subprocess.check_call([sys.executable, "-m", "pip", "install", "--user", "--no-warn-script-location", module])
-        except subprocess.CalledProcessError:
-            print(f"Installation of {module} failed. Try running manually:")
-            print(f"   python3 -m pip install --user {module}")
-            sys.exit(1)
-# ------------------------------------------------------------------------------------------------------------------------
+        print(f"Installing {package}…")
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "--quiet", package])
+# -----------------------------------------------------------------------------------------
 
 
 # External library imports
@@ -72,9 +61,10 @@ ignored_LOAD_RCC_File = False                       # Ignored rows with *rcc in 
 ignored_GITHUB_Folders = ["images", "docs", "test"] # Ignored folders from Github in get_List_Version()
 
 path_Xovi_Extensions = f"/home/root/xovi/exthome/qt-resource-rebuilder/"
-
-GITHUB_TOKEN = ""
 url_Repositories_Json = "https://raw.githubusercontent.com/PepikVaio/reMarkable_Xovi_Extensions_Manager/main/repositories.json"
+
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
 # -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -381,7 +371,7 @@ def get_List_Extensions(folder):
 
 def get_List_Repository(url_Repositories_Json):
     try:
-        r = requests.get(url_Repositories_Json, headers={"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {})
+        r = requests.get(url_Repositories_Json, headers=HEADERS)
         r.raise_for_status()
         return r.json()
     except Exception as e:
@@ -403,7 +393,7 @@ def get_List_Version():
         try:
             author, repo = full_Repo.split("/")
             folder_Api_Url = f"https://api.github.com/repos/{author}/{repo}/contents"
-            r = requests.get(folder_Api_Url, headers={"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {})
+            r = requests.get(folder_Api_Url, headers=HEADERS)
             r.raise_for_status()
             data = r.json()
 
@@ -413,7 +403,7 @@ def get_List_Version():
                     continue
 
                 full_Name = f"{author} / {name}"
-                folder_r = requests.get(f"{folder_Api_Url}/{name}", headers={"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {})
+                folder_r = requests.get(f"{folder_Api_Url}/{name}", headers=HEADERS)
                 if folder_r.status_code != 200:
                     continue
 
@@ -423,7 +413,7 @@ def get_List_Version():
                     continue
 
                 file_Url = f"https://raw.githubusercontent.com/{author}/{repo}/master/{name}/{qmd_Files[0]}"
-                file_R = requests.get(file_Url, headers={"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {})
+                file_R = requests.get(file_Url, headers=HEADERS)
                 if file_R.status_code != 200:
                     continue
 
@@ -440,7 +430,7 @@ def get_List_Version():
         try:
             author, repo = full_Repo.split("/")
             folder_Api_Url = f"https://api.github.com/repos/{author}/{repo}/contents"
-            r = requests.get(folder_Api_Url, headers={"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {})
+            r = requests.get(folder_Api_Url, headers=HEADERS)
             r.raise_for_status()
             data = r.json()
 
@@ -471,7 +461,7 @@ def get_Urls(name_Repository):
 
     for repository in name_Repository:
         try:
-            r = requests.get(f"https://api.github.com/repos/{repository}", headers={"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {})
+            r = requests.get(f"https://api.github.com/repos/{repository}", headers=HEADERS)
             r.raise_for_status()
             data = r.json()
             default_Branch = data.get("default_branch", "main")
