@@ -28,16 +28,6 @@ Extensions Manager slouží ke snadné instalaci rozšíření na vaše zaříz
 Stáhněte si nejnovější verzi:
 * [Xovi Extensions Manager](https://github.com/PepikVaio/reMarkable_Xovi_Extensions_Manager/releases)
 
-Nebo spusť přes terminál (na macOS):
-* Nainstalujte Homebrew (pokud ještě není nainstalován)  
-* Nainstalujte nejnovější Python  
-* Přesměrujte `python3` na novou verzi  
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-/opt/homebrew/bin/python3 --version
-brew link --overwrite python@3.13
-```
-
 
 ### Using
 * Stačí 2 kliknout na ikonu aplikace.
