@@ -28,16 +28,6 @@ The Extensions Manager is used to easily install extensions on your reMarkable d
 Download the latest release:
 * [Xovi Extensions Manager](https://github.com/PepikVaio/reMarkable_Xovi_Extensions_Manager/releases)
 
-Or run via terminal (on macOS):
-* Install Homebrew (if not already installed)  
-* Install the latest Python  
-* Redirect `python3` to the new version  
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-/opt/homebrew/bin/python3 --version
-brew link --overwrite python@3.13
-```
-
 
 ### Using
 * Just double-click the icon
