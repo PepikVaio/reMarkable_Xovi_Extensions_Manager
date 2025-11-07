@@ -1,14 +1,21 @@
 # Readme!
 
-## Run via terminal (on macOS):
-* Install Homebrew (if not already installed)  
-* Install the latest Python  
-* Redirect `python3` to the new version  
+## How to run the script on macOS
+* Install the latest Python
+  - Go to [python.org](https://www.python.org/downloads/mac-osx/) and download the latest stable version (currently 3.13.x).  
+  - Open the downloaded `.pkg` file and follow the installation instructions.
+
+* Update your PATH
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-brew install python@3.13
-brew link --overwrite python@3.13
+export PATH="/Library/Frameworks/Python.framework/Versions/3.13/bin:$PATH"
+source ~/.zshrc
 ```
+
+* Check Python version
+```bash
+python3 --version
+```
+
 
 ## Create a standalone app from Python:
 * Create app from python with terminal:
