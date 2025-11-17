@@ -1,0 +1,178 @@
+{
+    "en": {
+        "menu_Settings": "Settings",
+        "menu_Show_Log": "Log window",
+        "menu_Change_Language": "Change language",
+        "menu_Language_en": "English",
+        "menu_Language_cs": "Czech",
+        "menu_Reset_Settings": "Reset settings",
+
+        "menu_App": "App",
+        "menu_About": "About",
+        "menu_About_Text": "XoVI Extensions Manager!\n\nAllows you to effortlessly install and manage extensions on your reMarkable tablet.\n\nYou don’t need to worry about installation files or technical details. Everything is handled for you, making it simple even if you’re not a computer expert.\n\nAuthor: Wajsar Josef",
+
+        "askokcancel_Title_01": "Warning!",
+        "askokcancel_Msg_01": "No extensions selected. If you proceed, all extensions will be uninstalled. Do you want to continue?",
+
+        "askretrycancel_Title_01": "Connection error!",
+        "askretrycancel_Msg_01": "Cannot connect to your reMarkable ({ip})\nChyba: {error}",
+
+        "askyesno_Title_01": "Version changed!",
+        "askyesno_Title_02": "Language changed!",
+        "askyesno_Title_03": "Settings deleted!",
+        "askyesno_Msg_01": "Detected a version change.\n\nDo you want to delete existing extensions for compatibility (recomended)?",
+        "askyesno_Msg_02": "The change will take effect after the application is restarted.\n\nDo you want to restart the application now (recommended)?",
+        "askyesno_Msg_03": "The reset settings will take effect after the application is restarted.\n\nDo you want to restart the application now (very recommended)?",
+
+        "button_Apply_Changes": "Apply selected changes",
+        "button_Debug": "Debug",
+        "button_Exit": "Exit",
+        "button_Home": "Home",
+        "button_Launch_Xovi": "Launch Xovi & Exit",
+        "button_Refresh": "Refresh",
+        "button_Save_Download": "Save config & Download",
+
+        "label_IP_Address": "IP address:",
+        "label_Name": "Name:",
+        "label_Password": "Password:",
+        "label_Username": "Username:",
+        "label_Version": "Version:",
+
+        "note_Title_01": "Select extensions to install or uncheck to uninstall:",
+        "note_Title_02": "💡 Required extensions are hidden to prevent accidental disablement",
+        "note_Title_03": "Select author and software version of your reMarkable:",
+        "note_Title_04": "Log in via SSH to your reMarkable:",
+        "note_Title_05": "All selected extensions successfully uploaded!",
+        "note_Title_06": "💡 Zkuste poprvé režim debug, umožní vám testovat rozšíření a vyhnout se opakovanému restartování reMarkable.",
+        "note_Title_07": "💡 Po úspěšném otestování rozšíření a potvrzení, že vše funguje, můžete spustit Xovi.",
+        "note_Title_08": "1. Debug mode is used to test extensions safely!",
+        "note_Title_09": "2. Everything working fine? Launch Xovi & Exit!.",
+        "note_Title_10": "💡 Using terminal? Press Ctrl+c to exit debug mode, then press 'Launch Xovi & Exit'.",
+        "note_Title_11": "WARNING!",
+        "note_Title_12": "Never exit the application while in debug mode!\nAlways press 'Launch Xovi & Exit' to avoid errors!",
+
+        "showerror_Title_01": "Error!",
+        "showerror_Title_02": "Invalid version!",
+        "showerror_Msg_01": "Version {version} not found!",
+        "showerror_Msg_02": "An error occurred: {error_msg}",
+        "showerror_Msg_03": "Failed to load repository list",
+        "showerror_Msg_04": "Failed to load version list from {repo}:\n{error_msg}",
+        "showerror_Msg_05": "Failed to load repository {repo}:\n{error_msg}",
+        "showerror_Msg_06": "Allowed version formats are:\nempty field, x.xx, x.xx.x.x, x.xx.x.xx",
+        "showerror_Msg_07": "Failed to delete extensions:\n{error_msg}",
+        "showerror_Msg_08": "Failed to create default config:\n{error_msg}",
+
+        "showwarning_Title_01": "Warning!",
+        "showwarning_Msg_01": "Select author and software version of your reMarkable!",
+        "showwarning_Msg_02": "Enter the name!",
+        "showwarning_Msg_03": "Enter the ip address!",
+        "showwarning_Msg_04": "Enter the username!",
+        "showwarning_Msg_05": "Enter the password!",
+        "showwarning_Msg_06": "No content found in folder '{author} / {version}'!",
+        "showwarning_Msg_07": "No *qmd file found in the downloaded folder!",
+
+        "show_Window_Info_01": "⬇️ Downloading extensions from:",
+        "show_Window_Info_02": "⬇️ Loading repositories",
+        "show_Window_Info_03": "🗑️ Deleting all extensions",
+        "show_Window_Info_04": "🧹 Cleaning extensions",
+        "show_Window_Info_05": "🔄 Updating extensions",
+        "show_Window_Info_06": "🔌 Connecting to reMarkable",
+
+        "status_Label_01": "Failed to load repository list:\n{error_msg}",
+        "status_Label_02": "✅ Load complete!",
+        "status_Label_03": "🔄 Please refresh repositories!",
+
+        "WindowLoading_Title_01": "Please wait!",
+        "WindowSSH_Title_01": "SSH Log!"
+
+    },
+
+    "cs": {
+        "menu_Settings": "Nastavení",
+        "menu_Show_Log": "Log okno",
+        "menu_Change_Language": "Změnit jazyk",
+        "menu_Language_en": "Angličtina",
+        "menu_Language_cs": "Čeština",
+        "menu_Reset_Settings": "Resetovat nastavení",
+
+        "menu_App": "Aplikace",
+        "menu_About": "O aplikaci",
+        "menu_About_Text": "XoVI Extensions Manager!\n\nUmožňuje snadno instalovat a spravovat rozšíření na vašem zařízení reMarkable.\n\nNemusíte se starat o instalační soubory nebo technické detaily. Vše je řešeno za vás, takže je to jednoduché i bez počítačových zkušeností.\n\nAutor: Wajsar Josef",
+
+        "askokcancel_Title_01": "Varování!",
+        "askokcancel_Msg_01": "Nebyla vybrána žádná rozšíření. Pokud budete pokračovat, všechna rozšíření budou odinstalována. Chcete pokračovat?",
+
+        "askretrycancel_Title_01": "Chyba připojení!",
+        "askretrycancel_Msg_01": "Nelze se připojit k vašemu reMarkable ({ip})\nChyba: {error}",
+
+        "askyesno_Title_01": "Verze změněna!",
+        "askyesno_Title_02": "Jazyk změněn!",
+        "askyesno_Title_03": "Nastavení smazáno!",
+        "askyesno_Msg_01": "Byla detekována změna verze.\n\nChcete smazat existující rozšíření pro kompatibilitu (doporučeno)?",
+        "askyesno_Msg_02": "Změna se projeví po restartu aplikace.\n\nChcete restartovat aplikaci nyní (doporučeno)?",
+        "askyesno_Msg_03": "Reset nastavení se projeví po restartu aplikace.\n\nChcete restartovat aplikaci nyní (velmi doporučeno)?",
+
+        "button_Apply_Changes": "Použít vybrané změny",
+        "button_Debug": "Debug",
+        "button_Exit": "Exit",
+        "button_Home": "Domů",
+        "button_Launch_Xovi": "Spustit Xovi & Exit",
+        "button_Refresh": "Obnovit",
+        "button_Save_Download": "Uložit nastavení & Stáhnout",
+
+        "label_IP_Address": "IP adresa:",
+        "label_Name": "Název:",
+        "label_Password": "Heslo:",
+        "label_Username": "Uživatelské jméno:",
+        "label_Version": "Verze:",
+        
+        "note_Title_01": "Vyberte rozšíření k instalaci nebo odznačte pro odinstalaci:",
+        "note_Title_02": "💡 Požadovaná rozšíření jsou skryta, aby nedošlo k jejich nechtěnému vypnutí",
+        "note_Title_03": "Vyberte autora a verzi softwaru vašeho reMarkable:",
+        "note_Title_04": "Přihlaste se přes SSH do vašeho reMarkable:",
+        "note_Title_05": "Všechna vybraná rozšíření byla úspěšně nahrána!",
+        "note_Title_06": "💡 Zkuste poprvé režim debug, umožní vám testovat rozšíření a vyhnout se opakovanému restartování reMarkable.",
+        "note_Title_07": "💡 Po úspěšném otestování rozšíření a potvrzení, že vše funguje, můžete spustit Xovi.",
+        "note_Title_08": "1. Režim debug slouží k bezpečnému testování rozšíření!",
+        "note_Title_09": "2. Vše funguje správně? Spusťte Xovi a ukončete!",
+        "note_Title_10": "💡 Používáte terminál? Stiskněte Ctrl+c pro ukončení debug, poté 'Spustit Xovi & Ukončit'.",
+        "note_Title_11": "VAROVÁN!",
+        "note_Title_12": "Nevypínejte aplikaci během režimu debug!\nStiskněte 'Spustit Xovi & Ukončit', vyhnete se chybám!",
+
+        "showerror_Title_01": "Chyba!",
+        "showerror_Title_02": "Neplatná verze!",
+        "showerror_Msg_01": "Verze {version} nenalezena!",
+        "showerror_Msg_02": "Došlo k chybě: {error_msg}",
+        "showerror_Msg_03": "Nepodařilo se načíst seznam repozitářů:\n{error_msg}",
+        "showerror_Msg_04": "Nepodařilo se načíst seznam verzí z {repo}:\n{error_msg}",
+        "showerror_Msg_05": "Nepodařilo se načíst repozitář {repo}:\n{error_msg}",
+        "showerror_Msg_06": "Povolené formáty verze jsou:\nprázdné pole, x.xx, x.xx.x.x, x.xx.x.xx",
+        "showerror_Msg_07": "Nepodařilo se smazat rozšíření:\n{error_msg}",
+        "showerror_Msg_08": "Nepodařilo se vytvořit výchozí konfiguraci:\n{error_msg}",
+
+        "showwarning_Title_01": "Varování!",
+        "showwarning_Msg_01": "Vyberte autora a verzi softwaru vašeho reMarkable!",
+        "showwarning_Msg_02": "Zadejte jméno!",
+        "showwarning_Msg_03": "Zadejte IP adresu!",
+        "showwarning_Msg_04": "Zadejte uživatelské jméno!",
+        "showwarning_Msg_05": "Zadejte heslo!",
+        "showwarning_Msg_06": "Ve složce '{author} / {version}' nebyl nalezen žádný obsah!",
+        "showwarning_Msg_07": "Ve stažené složce nebyl nalezen žádný *.qmd soubor!",
+
+        "show_Window_Info_01": "⬇️ Stahování rozšíření z:",
+        "show_Window_Info_02": "⬇️ Načítání repozitářů",
+        "show_Window_Info_03": "🗑️ Mazání všech rozšíření",
+        "show_Window_Info_04": "🧹 Čištění rozšíření",
+        "show_Window_Info_05": "🔄 Aktualizace rozšíření",
+        "show_Window_Info_06": "🔌 Připojování k reMarkable",
+
+        "status_Label_01": "Nepodařilo se načíst seznam repozitářů",
+        "status_Label_02": "✅ Načtení dokončeno!",
+        "status_Label_03": "🔄 Aktualizujte prosím repozitáře!",
+
+        "WindowLoading_Title_01": "Prosím, čekejte!",
+        "WindowSSH_Title_01": "SSH Log!"
+    }
+}
+
+
