@@ -5,7 +5,7 @@ a = Analysis(
     ['xovi_extensions_manager.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[('translations.json', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -33,12 +33,13 @@ exe = EXE(
     disable_windowed_traceback=False,
     argv_emulation=False,
     target_arch=None,
+    icon='icon.icns',
     codesign_identity=None,
     entitlements_file=None,
 )
 app = BUNDLE(
     exe,
-    name='Xovi extensions manager.app',
-    icon = 'icon.icns',
+    name='Xovi Extensions Manager.app',
+    icon='icon.icns',
     bundle_identifier=None,
 )
