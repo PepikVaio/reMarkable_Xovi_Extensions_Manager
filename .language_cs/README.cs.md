@@ -7,6 +7,7 @@
 
 # Xovi Extensions Manager!
 Vylepšete své zařízení reMarkable pomocí rozšíření.
+* 30/01/2026 - Archivováno, můžete navštívit: [reManager](https://github.com/rmitchellscott/reManager?tab=readme-ov-file)
 
 
 ## Popis
