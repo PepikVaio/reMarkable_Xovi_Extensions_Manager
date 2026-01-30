@@ -7,7 +7,7 @@
 
 # Xovi Extensions Manager!
 Enhance your reMarkable device with extensions.
-30/01/2026 - Archived (you can visit: [reManager](https://github.com/rmitchellscott/reManager?tab=readme-ov-file))
+* 30/01/2026 - Archived, you can visit: [reManager](https://github.com/rmitchellscott/reManager?tab=readme-ov-file)
 
 
 ## Description
